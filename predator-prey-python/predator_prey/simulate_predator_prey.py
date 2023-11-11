@@ -2,6 +2,23 @@
 
 Version 3.0, last updated in September 2023.
 '''
+
+'''
+/// Things to check at first glance
+- Add a description at top of what code does
+- Run more obscure command line inputs, make sure doesn´t crash
+- Add error messages for when boundary conditions entered
+- Add comments across code to clarify and understand the code generally and break it into bitesize pieces
+- Fix any unclear names, for example all the short one letter two letter variables ...neibs??
+- Create automated tests which run against boundary conditions to check everything works without having to do it manually
+- Break function into other functions
+- Fix formatting issues
+- # Width including halo looks superfluous?
+- Array swapping at the bottom looks weird?
+'''
+
+
+
 from argparse import ArgumentParser
 import numpy as np
 import random
